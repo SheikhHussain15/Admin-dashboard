@@ -51,7 +51,7 @@ export default function AdminDashboard() {
         }`
       )
       .then((data: React.SetStateAction<Order[]>) => setOrders(data))
-      .catch((error: any) => console.error("Error fetching orders:", error));
+      .catch((error) => console.error("Error fetching orders:", error));
   }, []);
 
   const filteredOrders =

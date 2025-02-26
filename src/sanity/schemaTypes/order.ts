@@ -1,5 +1,5 @@
 
-export default {
+ {
     name : 'order',
     type : 'document',
     title : 'Order',
