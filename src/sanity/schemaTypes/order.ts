@@ -1,5 +1,5 @@
 
-const orderScema= {
+const orderSchema = {
     name : 'order',
     type : 'document',
     title : 'Order',
