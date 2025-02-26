@@ -1,5 +1,5 @@
 
-const orderSchema = {
+export const orderSchema = {
     name : 'order',
     type : 'document',
     title : 'Order',
